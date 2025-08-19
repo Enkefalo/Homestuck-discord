@@ -20,7 +20,7 @@
   <script src="https://player.vimeo.com/api/player.js"></script>
   <script>
     const options = {
-      id: 1111467269, // Vimeo video ID
+      id: 1111467269, // your Vimeo video ID
       width: 720,
       autoplay: true,
       muted: true,
@@ -33,7 +33,6 @@
       console.log('Video is playing');
     });
 
-    // Optional: Log video title
     player.getVideoTitle().then(function(title) {
       console.log('Video title:', title);
     });
